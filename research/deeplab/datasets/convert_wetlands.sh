@@ -38,9 +38,9 @@ LIST_FOLDER="${WETLANDS_ROOT}/ImageSets"
 
 echo "Converting Wetlands dataset..."
 
-#pycharm (py35) env has tensorflow installed
+#tensorflow (py35) env has tensorflow installed
 
-"C:/Anaconda2/envs/pycharm/python" "${CURRENT_DIR}/build_wetlands_data.py" \
+"C:/Anaconda2/envs/tensorflow/python" "${CURRENT_DIR}/build_wetlands_data.py" \
   --image_folder="${IMAGE_FOLDER}" \
   --semantic_segmentation_folder="${SEG_FOLDER}" \
   --list_folder="${LIST_FOLDER}" \

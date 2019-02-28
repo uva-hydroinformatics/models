@@ -33,8 +33,8 @@ mkdir -p "${TRAIN_LOGDIR}"
 
 NUM_ITERATIONS=$1
 
-#pycharm (py35) env has tensorflow installed
-"C:/Anaconda2/envs/pycharm/python" "${WORK_DIR}/train.py" \
+#tensorflow (py35) env has tensorflow installed
+"C:/Anaconda2/envs/tensorflow/python" "${WORK_DIR}/train.py" \
   --logtostderr \
   --train_split="train" \
   --model_variant="xception_65" \
